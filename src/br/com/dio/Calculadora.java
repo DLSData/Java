@@ -15,12 +15,13 @@ public class Calculadora {
 			int soma = soma(a,b);
 			int subtracao = subtracao(a,b);
 			int multiplicacao = multiplicacao(a,b);
-			int divisao = divisao(a,b);
+			float divisao = divisao(a,b);
 
 			System.out.println(soma);
 			System.out.println(subtracao);
 			System.out.println(multiplicacao);
-			System.out.println(divisao);
+			System.out.println(divisao);					
+					
 	}
 
 	public static int soma (int a, int b){
@@ -35,7 +36,7 @@ public class Calculadora {
 	return a*b; 
 	}
 
-	public static int divisao (int a, int b){
+	public static float divisao (float a, float b){
 	return a/b;
 	}
 }
